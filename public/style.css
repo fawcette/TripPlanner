@@ -1,14 +1,68 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #C1B5AD;
-  }
+	box-sizing: border-box;
+}
 
-  #map {
-      height: 100vh;
-      width: 100vw;
-  }
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #c1b5ad;
+}
+
+#map {
+	justify-content: flex-start;
+	height: 100vh;
+	width: 100vw;
+}
+
+#navbar {
+	display: flex;
+	width: 100vw;
+	height: 30px;
+	background-color: orange;
+	font-size: 10px;
+	color: black;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.optionsBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 400px;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	justify-content: space-between;
+}
+
+#options {
+	display: flex;
+	flex-direction: column;
+	background-color: tan;
+	width: 400px;
+	height: 400px;
+}
+
+#page {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#iter {
+	flex-direction: column;
+	background-color: lightgreen;
+	width: 400px;
+	height: 400px;
+}
+
+#headerIter {
+	background-color: darkgreen;
+	width: 400px;
+	height: 50px;
+}
+
+.selection {
+	flex-direction: row;
+}
